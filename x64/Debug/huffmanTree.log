@@ -1,0 +1,11 @@
+﻿  changeCode.c
+  C:\Users\jiujue\source\repos\huffmanTree\myHuffmanHead.h: warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  myStrCat.c
+  C:\Users\jiujue\source\repos\huffmanTree\myHuffmanHead.h: warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  readBybinary.c
+C:\Users\jiujue\source\repos\huffmanTree\myStrCat.c(11,28): warning C4047:  “=”:“char”与“char *”的间接级别不同
+C:\Users\jiujue\source\repos\huffmanTree\myStrCat.c(11,28): warning C4047: C:\Users\jiujue\source\repos\huffmanTree\myHuffmanHead.h: warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\jiujue\source\repos\huffmanTree\readBybinary.c(38,13): warning C4047:  “函数”:“int”与“binaryNode *”的间接级别不同
+  正在生成代码...
+C:\Users\jiujue\source\repos\huffmanTree\readBybinary.c(38,13): warning C4024:  “fputc”: 形参和实参 1 的类型不同
+  huffmanTree.vcxproj -> C:\Users\jiujue\source\repos\huffmanTree\x64\Debug\huffmanTree.exe

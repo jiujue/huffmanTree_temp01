@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="getMinTwo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="creatHuffmanTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isExitence.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="makebranch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="changeCode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myStrCat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="obtainIput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="printLinkList.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="huffmanEncode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="primary.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hartSearcher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="readBybinary.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="encodeBytesToBinary.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryToBytes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myHuffmanHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
