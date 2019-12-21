@@ -6,8 +6,8 @@ int encodeByBinary(void* arg)
 	binaryNode* test = (binaryNode*)malloc(sizeof(binaryNode));
 	memset(test, 0, sizeof(binaryNode));
 
-	FILE* encodeFile = fopen("./src/encoded.txt", "rb");
-	FILE* writeByBinary = fopen("./src/encodeBinary.txt", "wb");
+	FILE* encodeFile = fopen("./src/encodedBytes.txt", "r");
+	FILE* writeByBinary = fopen("./src/encodeBinary.txt", "w");
 
 	if (encodeFile == NULL || writeByBinary == NULL)
 	{

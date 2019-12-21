@@ -6,8 +6,9 @@ int decodeByBinary(void *arg)
 	binaryNode* test = (binaryNode*)malloc(sizeof(binaryNode));
 	memset(test, 0, sizeof(binaryNode));
 
-	FILE* encodeFile = fopen("./src/encodeBinary.txt", "rb");
-	FILE* decodeFile = fopen("./src/decodeBinary.txt", "wb");
+	//encodeBinary
+	FILE* encodeFile = fopen("./src/encodeBinary.txt", "r");
+	FILE* decodeFile = fopen("./src/decodeBinary.txt", "w");
 
 	if (encodeFile == NULL || decodeFile == NULL)
 	{

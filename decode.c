@@ -15,6 +15,7 @@ int getKey(char needrapa, FILE* EncodedFile,FILE* DecodedFile, nodeHuffmanTree_t
 			if ((int)head->key != -51)
 			{
 				fputc(head->key, DecodedFile);
+				//fflush(DecodedFile);
 				return 0;
 			}
 			else
@@ -30,6 +31,8 @@ int getKey(char needrapa, FILE* EncodedFile,FILE* DecodedFile, nodeHuffmanTree_t
 			if ((int)head->key != -51)
 			{
 				fputc(head->key, DecodedFile);
+				//fflush(DecodedFile);
+
 				return 0;
 			}
 			else
@@ -46,8 +49,9 @@ int getKey(char needrapa, FILE* EncodedFile,FILE* DecodedFile, nodeHuffmanTree_t
 
 int decode(nodeHuffmanTree_t* head)
 {
-	FILE* EncodedFile = fopen("./src/encoded.txt", "r");
-	FILE* DecodedFile = fopen("./src/decoded.txt", "w");
+	//decodeBinary
+	FILE* EncodedFile = fopen("./src/encodedBytes.txt", "r");
+	FILE* DecodedFile = fopen("./src/decodedOriginal.txt", "w");
 	nodeHuffmanTree_t* head01 = NULL ;
 
 	if (EncodedFile == NULL || DecodedFile == NULL) 

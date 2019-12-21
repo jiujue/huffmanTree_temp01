@@ -132,6 +132,7 @@
     <ClCompile Include="binaryToBytes.c" />
     <ClCompile Include="creatHuffmanTree.c" />
     <ClCompile Include="decode.c" />
+    <ClCompile Include="decodeBytes.c" />
     <ClCompile Include="encodeBytesToBinary.c" />
     <ClCompile Include="getMinTwo.c" />
     <ClCompile Include="hartSearcher.c" />
@@ -143,7 +144,7 @@
     <ClCompile Include="printLinkList.c" />
     <ClCompile Include="primary.c" />
     <ClCompile Include="huffmanEncode.c" />
-    <ClCompile Include="readBybinary.c" />
+    <ClCompile Include="writebinary.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myHuffmanHead.h" />

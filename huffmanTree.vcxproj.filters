@@ -61,13 +61,16 @@
     <ClCompile Include="decode.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="readBybinary.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="encodeBytesToBinary.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="binaryToBytes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="writebinary.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decodeBytes.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

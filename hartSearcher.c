@@ -4,7 +4,7 @@ int hartSearcherEncode(nodeHuffmanTree_t* head)
 {
 	nodeHuffmanTree_t* head01 = NULL;
 	FILE* srcFile = fopen("./src/src.txt","r");
-	FILE* EncodeFile = fopen("./src/encoded.txt", "wb");
+	FILE* EncodeFile = fopen("./src/encodedBytes.txt", "w");
 	if (srcFile == NULL || EncodeFile == NULL)
 	{
 		printf("open file fial\n");

@@ -20,12 +20,19 @@ int main()
 	printf("---------------split line-------------------------\n");
 	hartSearcherEncode(head);
 	printf("Encode done\n");
-	decode(headTree);
-	printf("Encode done\n");
 	printf("---------------split line-------------------------\n");
-	//writeBinary();
-	printf("writeBinary done\n");
+	decode(headTree);
+	printf("Decode done\n");
 
+	printf("---------------split line-------------------------\n");
+
+	encodeByBinary(NULL);
+	printf("encodeByBinary done\n");
+	printf("---------------split line-------------------------\n");
+	decodeByBinary(NULL);
+	printf("decodeByBinary done\n");
+	printf("---------------split line-------------------------\n");
+	decodeBytes(headTree);
 	system("pause");
     return 0;
 }

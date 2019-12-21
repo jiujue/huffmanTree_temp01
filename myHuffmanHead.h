@@ -74,4 +74,5 @@ int decode(nodeHuffmanTree_t* head);
 
 int encodeByBinary(void *);
 int decodeByBinary(void *);
+int decodeBytes(nodeHuffmanTree_t* head);
 
